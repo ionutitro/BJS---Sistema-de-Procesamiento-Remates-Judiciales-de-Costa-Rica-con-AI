@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+mysql-connector-python
+pdfminer.six
+pytesseract
+requests
+watchdog
+python-multipart
+jinja2
+llama-cpp-python

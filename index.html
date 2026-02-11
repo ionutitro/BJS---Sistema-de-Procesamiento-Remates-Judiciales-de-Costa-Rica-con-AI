@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+------------------------------------------------------------
+Boletines Judiciales System (BJS)
+
+Desarrollado por: Daniel Ionut C.
+Marca / iniciativa: Ionut IT
+Fecha: Febrero 2026
+
+Licencia pública con restricción comercial.
+ANTES de usar, modificar o redistribuir este código:
+
+- Lea el archivo LICENSE
+- Lea el archivo README.md
+
+Uso personal permitido.
+Uso comercial o implementación a terceros requiere licencia.
+
+Desarrollado con ♥ por Ionut IT
+------------------------------------------------------------
+-->
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BJS - Boletines Judiciales System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">BJS System</a>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row mb-3">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Subir Boletín PDF</h5>
+                        <form id="uploadForm">
+                            <div class="input-group">
+                                <input type="file" class="form-control" id="pdfFile" accept=".pdf" required>
+                                <button class="btn btn-success" type="submit">Procesar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Últimos Remates Detectados</h3>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>ID</th>
+                                <th>Tipo</th>
+                                <th>Descripción</th>
+                                <th>Precio Base</th>
+                                <th>Ubicación</th>
+                                <th>Fecha Remate</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="rematesTableBody">
+                            <!-- Data will be loaded here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Details -->
+    <div class="modal fade" id="detailModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Detalle del Remate</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <!-- Details loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

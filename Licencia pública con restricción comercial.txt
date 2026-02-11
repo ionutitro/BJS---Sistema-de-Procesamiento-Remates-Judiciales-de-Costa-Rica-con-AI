@@ -1,0 +1,126 @@
+LICENSE — Boletines Judiciales System (BJS)
+
+Copyright (c) 2026
+
+Licencia de Uso Público con Restricción Comercial
+
+El software Boletines Judiciales System (BJS) se distribuye bajo los siguientes términos:
+
+1. Uso personal
+
+Se concede permiso gratuito para:
+
+usar el software para fines personales
+
+estudiar el código
+
+modificarlo para uso propio
+
+ejecutarlo en entornos locales no comerciales
+
+No se requiere pago ni autorización adicional para estos casos.
+
+2. Uso comercial y para terceros
+
+Cualquier uso comercial requiere el pago de una licencia.
+
+Se considera uso comercial:
+
+vender el sistema o derivados
+
+implementarlo para clientes
+
+integrarlo en servicios pagos
+
+usarlo dentro de empresas para fines productivos
+
+ofrecer acceso al sistema como servicio
+
+revender datos generados por el sistema
+
+Costo de licencia comercial:
+
+USD $100 (pago único por implementación)
+
+El pago habilita:
+
+uso comercial
+
+implementación para terceros
+
+modificación para fines comerciales
+
+3. Distribución y modificaciones
+
+Se permite:
+
+modificar el código
+
+redistribuir versiones modificadas
+
+Siempre que:
+
+se mantenga este archivo de licencia
+
+se indique claramente que es una versión derivada
+
+no se elimine la atribución original del sistema BJS
+
+4. Exención de responsabilidad ("AS IS")
+
+Este software se proporciona “TAL CUAL” (AS IS), sin garantías de ningún tipo, expresas o implícitas.
+
+El autor no garantiza:
+
+funcionamiento continuo
+
+exactitud de los datos
+
+compatibilidad con sistemas futuros
+
+cumplimiento legal en todos los contextos de uso
+
+ausencia de errores
+
+El usuario asume toda responsabilidad derivada de su uso.
+
+En ningún caso el autor será responsable por:
+
+pérdidas económicas
+
+daños directos o indirectos
+
+decisiones tomadas con base en los datos del sistema
+
+uso indebido del software
+
+5. Protección legal y cumplimiento normativo
+
+El usuario es responsable de:
+
+cumplir leyes de protección de datos
+
+cumplir regulaciones locales
+
+uso ético de la información procesada
+
+El sistema es una herramienta tecnológica y no sustituye asesoría legal.
+
+6. Soporte
+
+Soporte técnico básico y consultas:
+
+ionutitro@gmail.com
+
+El soporte se ofrece sin garantía de tiempos de respuesta ni resolución obligatoria.
+
+7. Aceptación de términos
+
+El uso, copia, modificación o distribución del software implica la aceptación total de esta licencia.
+
+Si no está de acuerdo con estos términos, no utilice el software.
+
+Boletines Judiciales System (BJS)
+Licencia pública con restricción comercial
+Versión 1.0
+2026
